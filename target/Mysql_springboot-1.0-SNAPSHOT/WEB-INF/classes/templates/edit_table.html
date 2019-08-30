@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>新增、编辑设备信息</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div align="center">
+<form th:action="@{/save}" method="post">
+
+    <div th:if="${isAdd} == false">
+        <label>id</label>
+        <input type="text" name="AntiTest.id" th:readonly="readonly" th:field="${anti_test.id}" />
+    </div>
+    <div>
+        <label>anti_name</label>
+        <input type="text" name="AntiTest.name" th:field="${anti_test.computername}" />
+    </div>
+    <div>
+        <label>日期</label>
+        <input type="date" name="AntiTest.createdate" th:value="${#dates.format(anti_test.createdate,'yyyy-MM-dd')}" th:field="${anti_test.createdate}"/>
+    </div>
+    <div>
+        <label>anti_cnt</label>
+        <input type="text" name="AntiTest.cnt" th:field="${anti_test.cnt}" />
+    </div>
+    <div>
+        <input type="submit" value="提交" />
+    </div>
+</form>
+</div>
+</body>
+</html>

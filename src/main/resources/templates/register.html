@@ -1,0 +1,32 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <head>
+        <meta charset="UTF-8">
+        <title>注册</title>
+    </head>
+<body text-align="center">
+<div class="container">
+
+    <div id="header" style="background-color:#FFA500;">
+        <h1 style="margin-bottom:0;">注册界面视图</h1></div>
+<!-- float:left; -->
+    <div id="content" style="margin:auto;background-color:#eeeeee;height:200px;width:800px;">
+        <form th:action="@{/uregister}" th:method="post" style="margin: auto">
+            用户名(compertname):<input type="text" name="username" id="username"/></br>
+            密码(id):<input type="password" name="password" id="password"/></br>
+            确认密码:<input type="password" name="password2" id="password2"/></br>
+            创建时间:<input type="date" name="createdate" id="createdate"/></br>
+            数量:<input type="text" name="computecnt" id="computecnt"/></br>
+            <input type="submit" value="注册">
+        </form>
+    </div>
+    <div style="margin-top:0%;">
+    <video width="320" height="240" controls>
+        <source th:src="@{/video/狗.mp4}" src="../static/video/狗.mp4" type="video/mp4">
+        <!--source src="movie.ogg" type="video/ogg" -->
+    </video>
+    </div>
+</div>
+</body>
+</html>

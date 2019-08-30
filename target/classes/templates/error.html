@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>错误页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+    <div style="margin:auto;">
+        <el-col :span="12">
+            <img border="0" th:src="@{/images/404.png}"  src="../static/images/404.png" alt="App Logo"/>
+        </el-col>
+        <el-col :span="12">
+            <div style="margin-left: 100px;margin-top: 60px">
+                <h1 class="color-main">OOPS!</h1>
+                <h2 style="color: #606266">很抱歉，页面它不小心迷路了！</h2>
+                <div style="color:#909399;font-size: 14px">请检查您输入的网址是否正确，请点击以下按钮返回主页或者发送错误报告</div>
+                <a style="margin-top: 20px" type="primary" href="show_table.html"
+                   th:href="@{/selectAllAntiTest}">返回首页</a>
+            </div>
+        </el-col>
+    </div>
+</div>
+<th:block></th:block>
+</body>
+</html>
