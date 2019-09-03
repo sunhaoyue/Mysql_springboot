@@ -13,7 +13,7 @@
     <artifactId>Mysql_springboot</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Mysql_springboot</name>
-    <packaging>war</packaging>
+    <packaging>jar</packaging>
     <description>Demo project for Spring Boot</description>
 
     <properties>
@@ -87,6 +87,13 @@
             <version>4.0</version>
         </dependency>
     
+        <!-- mysql驱动 https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.17</version>
+        </dependency>
+        
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-amqp</artifactId>

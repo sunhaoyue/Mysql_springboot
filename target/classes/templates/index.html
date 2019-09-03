@@ -12,5 +12,24 @@
 <body>
 <h2>世界很大，有你发现！</h2>
 <th:block></th:block>
+
+
+<table border="1" width="1200" class="container">
+    <thead align="center" class="header">
+    <tr align="center">
+        <h2>登录成功，欢迎光临</h2>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:if="${people_name} eq 0">
+        <td colspan="6">没有数据</td>
+    </tr>
+    <tr th:each="peoplename : ${people_name}">
+        <td th:text="${peoplename}">1</td>
+    </tr>
+    <td colspan="10" align="center"><a class="btn btn-dark" href="https://github.com/sunhaoyue">显示设备信息</a>
+    </td>
+    </tbody>
+</table>
 </body>
 </html>

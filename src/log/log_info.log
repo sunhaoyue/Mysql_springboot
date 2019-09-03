@@ -1,0 +1,29 @@
+2019-09-02 16:37:25.363 [restartedMain] INFO  com.wantwant.StartApplication - Starting StartApplication on shq91709014 with PID 3146 (started by 91808008 in /Users/91808008/Documents/workspace/ IntelliJ_IDEA/Mysql_Springboot)
+2019-09-02 16:37:25.366 [restartedMain] INFO  com.wantwant.StartApplication - No active profile set, falling back to default profiles: default
+2019-09-02 16:37:25.498 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2019-09-02 16:37:25.499 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2019-09-02 16:37:27.612 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration' of type [org.springframework.amqp.rabbit.annotation.RabbitBootstrapConfiguration$$EnhancerBySpringCGLIB$$eea4dd67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-09-02 16:37:28.537 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2019-09-02 16:37:28.553 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-127.0.0.1-8088"]
+2019-09-02 16:37:28.564 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2019-09-02 16:37:28.564 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.16]
+2019-09-02 16:37:28.572 [restartedMain] INFO  org.apache.catalina.core.AprLifecycleListener - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/91808008/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+2019-09-02 16:37:28.904 [restartedMain] INFO  org.apache.jasper.servlet.TldScanner - At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-09-02 16:37:28.910 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/Mysql_springboot] - Initializing Spring embedded WebApplicationContext
+2019-09-02 16:37:28.911 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3411 ms
+2019-09-02 16:37:28.981 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Servlet statViewServlet was not registered (possibly already registered?)
+2019-09-02 16:37:28.984 [restartedMain] INFO  o.s.boot.web.servlet.RegistrationBean - Filter webStatFilter was not registered (possibly already registered?)
+2019-09-02 16:37:29.131 [restartedMain] INFO  c.a.d.s.b.a.DruidDataSourceAutoConfigure - Init DruidDataSource
+2019-09-02 16:37:29.664 [restartedMain] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-09-02 16:37:30.092 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2019-09-02 16:37:30.242 [restartedMain] INFO  o.s.b.a.web.servlet.WelcomePageHandlerMapping - Adding welcome page template: index
+2019-09-02 16:37:30.547 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2019-09-02 16:37:30.665 [restartedMain] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-127.0.0.1-8088"]
+2019-09-02 16:37:30.725 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path '/Mysql_springboot'
+2019-09-02 16:37:30.729 [restartedMain] INFO  com.wantwant.StartApplication - Started StartApplication in 6.386 seconds (JVM running for 8.017)
+2019-09-02 16:37:36.463 [http-nio-127.0.0.1-8088-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/Mysql_springboot] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-09-02 16:37:36.463 [http-nio-127.0.0.1-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2019-09-02 16:37:36.474 [http-nio-127.0.0.1-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2019-09-02 16:38:13.904 [Thread-9] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2019-09-02 16:38:13.906 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2019-09-02 16:38:13.914 [Thread-9] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed

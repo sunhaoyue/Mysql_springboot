@@ -5,7 +5,7 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 
 
 /**
- * @program: Sqlserver_springboot
+ * @program: MYsql_springboot
  * @description: web运行入口
  * @author: Sunhaoyue
  * @create: 2019/07/04 12:04

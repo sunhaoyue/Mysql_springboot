@@ -36,6 +36,9 @@
             </div>
         </div>
 
+        <!--判断-->
+        <p style="color:red" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+
         <div class="clearfix">
             <!-- <label>
                 <input type="checkbox" class="autologin" />
@@ -50,7 +53,7 @@
 
         <div class="clearfix goregister">
             <span class="reg_now">没有帐号？</span>
-            <td colspan="10" align="center"><a class="btn btn-dark" href="register.html" th:href="@{/registerpage}">注册详情</a>
+            <td colspan="10" align="center"><a class="btn btn-dark" href="register.html">注册详情</a>
             </td>
         </div>
 
@@ -59,7 +62,7 @@
     </form>
 </section>
 <footer id="footer">
-    <span>Copyright © sunhaoyue@2019.6.20-2019.7</span>
+    <span>Copyright © sunhaoyue@2019.9.02-2020</span>
 </footer>
 </body>
 </html>
