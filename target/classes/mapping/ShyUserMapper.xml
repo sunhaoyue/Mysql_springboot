@@ -25,16 +25,20 @@
   
   <!-- 登录验证-->
   <select id="userlogin" resultMap="BaseResultMap">
-    SELECT user_login_name,user_password FROM shy_user WHERE user_login_name = #{user_name} AND user_password = #{user_password}
+    SELECT user_login_name,user_password FROM shy_user WHERE user_login_name = #{userName}
+    AND user_password = #{userPassword}
+    AND use_status=1
   </select>
-  
   
   
   <select id="selectByPrimaryKey" resultMap="BaseResultMap" parameterType="java.lang.Long" >
     select 
     <include refid="Base_Column_List" />
     from shy_user
-    where user_id = #{userId,jdbcType=BIGINT}
+    <!--where user_id = #{userId,jdbcType=BIGINT} -->
+    <if test="userId != null and userId !=''" >
+      user_id = #{userId,jdbcType=BIGINT}
+    </if>
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >
     delete from shy_user

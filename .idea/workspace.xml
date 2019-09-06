@@ -2,29 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5e791aea-a383-473f-99f6-5996fcfdaf3b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_8_0_17.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log/log_debug.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log/log_error.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/log/log_info.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/Mysql_springboot.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wantwant/mapper/ShyUserMapper.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/wantwant/pojo/ShyUser.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/mapping/ShyUserMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyUserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyUserserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wantwant/controller/ShyUserController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wantwant/service/ShyUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/wantwant/service/impl/ShyUserserviceImpl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/templates/userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CRM_mysql_sprinboot.sql" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Mysql_springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Mysql_springboot.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/ServletInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/ServletInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/AntiTestController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/UserController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/AntiTestMapper.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/LoginMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/AntiTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/Common.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/service/AntiTestService.java" beforeDir="false" />
@@ -36,6 +33,7 @@
       <change beforePath="$PROJECT_DIR$/src/main/resources/log/springboot_logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log/springboot_logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/AntiTestMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/LoginMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/edit_table.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
@@ -156,6 +154,7 @@
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/controller/LoginController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/mapper/AntiTestMapper.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/mapper/LoginMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/mapper/ShyUserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/mapper/ShyUserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/pojo/AntiTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/pojo/Common.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/service/AntiTestService.class" beforeDir="false" />
@@ -166,13 +165,14 @@
       <change beforePath="$PROJECT_DIR$/target/classes/log/springboot_logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log/springboot_logback.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapping/AntiTestMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapping/LoginMapper.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapping/ShyUserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/mapping/ShyUserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/src/log/log_warn.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -208,24 +208,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/log/log_debug.log">
-          <provider selected="true" editor-type-id="LogFileEditorProvider" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/generator/generatorConfig.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" selection-start-line="36" selection-end-line="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="339">
-              <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+            <state relative-caret-position="138">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -233,11 +219,53 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/UserController.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyUserController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="309">
+              <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userlist.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="356">
+              <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -245,8 +273,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="630">
+              <caret line="52" selection-start-line="52" selection-end-line="52" />
               <folding>
                 <element signature="n#style#0;n#p#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -257,8 +285,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="495">
-              <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
+            <state relative-caret-position="173">
+              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyUserserviceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="308">
+              <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -275,37 +315,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/templates/details_table.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log/springboot_logback.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="615">
-              <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
-              <folding>
-                <element signature="e#847#848#0" expanded="true" />
-                <element signature="e#883#884#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -313,6 +322,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -338,7 +348,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/ServletInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java" />
@@ -346,14 +355,20 @@
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/LoginMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/service/LoginService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/LoginServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/error.html" />
-        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
         <option value="$PROJECT_DIR$/src/main/resources/log/springboot_logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/templates/login.html" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyUserserviceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/main/resources/templates/userlist.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyUserController.java" />
       </list>
     </option>
   </component>
@@ -407,11 +422,10 @@
   <component name="PhpServers">
     <servers />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="48" />
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="41" />
     <option name="width" value="1440" />
-    <option name="height" value="826" />
+    <option name="height" value="808" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -419,6 +433,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -512,42 +527,16 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysql_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql_Springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="templates" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysql_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql_Springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysql_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql_Springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mysql_springboot" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mysql_Springboot" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
@@ -623,7 +612,10 @@
       <updated>1567146273144</updated>
       <workItem from="1567146276202" duration="259000" />
       <workItem from="1567382458631" duration="17274000" />
-      <workItem from="1567492281967" duration="669000" />
+      <workItem from="1567492281967" duration="3081000" />
+      <workItem from="1567642663272" duration="696000" />
+      <workItem from="1567644050770" duration="2089000" />
+      <workItem from="1567663740918" duration="7876000" />
     </task>
     <task id="LOCAL-00001" summary="sql">
       <created>1567382612021</created>
@@ -632,17 +624,30 @@
       <option name="project" value="LOCAL" />
       <updated>1567382612021</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="用户登录实现，日志，逆向工程测试，完善">
+      <created>1567495530551</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1567495530552</updated>
+    </task>
+    <task id="LOCAL-00003" summary="mysql数据库的初始化设计">
+      <created>1567495691626</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1567495691626</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21023000" />
+    <option name="totallyTimeSpent" value="34096000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1440" height="826" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="826" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info id="Designer" order="3" />
@@ -650,8 +655,8 @@
       <window_info id="Favorites" order="5" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49427754" weight="0.32833788" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.39918256" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49213162" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49713877" weight="0.39918256" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -660,7 +665,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Spring" order="10" />
       <window_info anchor="bottom" id="Terminal" order="11" />
-      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.50572246" side_tool="true" visible="true" weight="0.32833788" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5078684" side_tool="true" visible="true" weight="0.32833788" />
       <window_info anchor="bottom" id="Messages" order="13" sideWeight="0.49785408" weight="0.32833788" />
       <window_info anchor="bottom" id="Java Enterprise" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -679,17 +684,15 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="sql" />
     <MESSAGE value="用户登录实现，日志，逆向工程测试，完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="用户登录实现，日志，逆向工程测试，完善" />
+    <MESSAGE value="mysql数据库的初始化设计" />
+    <MESSAGE value="数据列表展示实现 select" />
+    <option name="LAST_COMMIT_MESSAGE" value="数据列表展示实现 select" />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/pojo/AntiTest.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/AntiTestService.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/AntiTestController.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/AntiTestServiceImpl.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/mapper/AntiTestMapper.java" />
     <entry file="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/org/mybatis/spring/boot/mybatis-spring-boot-autoconfigure/1.3.2/mybatis-spring-boot-autoconfigure-1.3.2-sources.jar!/org/mybatis/spring/boot/autoconfigure/MybatisAutoConfiguration.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -745,62 +748,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/mapper/LoginMapper.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="25" column="14" lean-forward="true" selection-start-line="25" selection-start-column="14" selection-end-line="25" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/LoginServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="219">
-          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#424#425#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="20" lean-forward="true" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Mysql_springboot.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1514" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/CRM_mysql_sprinboot.sql" />
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="46" column="65" selection-start-line="46" selection-start-column="58" selection-end-line="46" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/config/MyWebConfigurer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -827,13 +780,6 @@
     <entry file="file://$PROJECT_DIR$/src/log/log_error.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="47" selection-start-line="120" selection-start-column="47" selection-end-line="120" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/log/log_debug.log">
       <provider selected="true" editor-type-id="LogFileEditorProvider" />
     </entry>
@@ -841,33 +787,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
-          <folding>
-            <element signature="n#style#0;n#p#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" column="7" selection-start-line="33" selection-start-column="7" selection-end-line="33" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
-          <folding>
-            <element signature="n#style#0;n#a#0;n#div#0;n#el-col#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -885,10 +804,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Long.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="52" column="3" lean-forward="true" selection-start-line="52" selection-start-column="3" selection-end-line="52" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ShyUserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="30" column="11" selection-start-line="30" selection-start-column="11" selection-end-line="30" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="89" column="5" selection-start-line="89" selection-start-column="5" selection-end-line="89" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyUser.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="615">
-          <caret line="50" column="10" selection-start-line="50" selection-start-column="10" selection-end-line="50" selection-end-column="10" />
+        <state relative-caret-position="38">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="23" />
           <folding>
             <element signature="e#847#848#0" expanded="true" />
             <element signature="e#883#884#0" expanded="true" />
@@ -896,20 +853,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/LoginServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="63" lean-forward="true" selection-start-line="63" selection-end-line="63" />
+        <state relative-caret-position="255">
+          <caret line="21" column="14" selection-start-line="21" selection-start-column="14" selection-end-line="21" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyUserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyUserserviceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="26" column="52" selection-start-line="26" selection-start-column="52" selection-end-line="26" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="52" selection-start-line="52" selection-end-line="52" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#form#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/error.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="10" selection-start-line="26" selection-start-column="10" selection-end-line="26" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#el-col#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/templates/userlist.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="356">
+          <caret line="56" column="12" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="309">
+          <caret line="50" column="5" selection-start-line="50" selection-start-column="5" selection-end-line="50" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

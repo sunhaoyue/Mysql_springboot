@@ -9,6 +9,7 @@ import org.springframework.web.bind.WebDataBinder;
 import org.springframework.web.bind.annotation.InitBinder;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.text.SimpleDateFormat;
@@ -36,7 +37,7 @@ public class LoginController {
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
     }
 
-    @RequestMapping(value = {"/loginHtml"})
+    @RequestMapping(value = {"/login"})
     public String loginHtml() {
         return "login";
     }
@@ -60,4 +61,37 @@ public class LoginController {
         }
         //System.out.println("登录结束");
     }
+
+
+
+  /*  @RequestMapping("/registerHtml")
+    public String registerpage() {
+        return "register";
+    }
+
+    @ResponseBody
+    @RequestMapping("/uregister")
+    public String addUser(@RequestParam("username") String username,
+                          @RequestParam("password") String password,
+                          @RequestParam("password2") String password2,
+                          @RequestParam("createdate") Date createdate,
+                          @RequestParam("computecnt") String computecnt) {
+
+        if ((username == null) || (username == "") || (password == null) || (password == "") || (createdate == null) || (computecnt == null) || (computecnt == "")) {
+            return "redirect:/registerpage";
+        } else {
+            if (!password.equals(password2)) {
+
+                return "两次密码不相同，注册失败！！";
+            } else {
+                int res = loginService.adduser(username, password, createdate, computecnt);
+
+                if (res == 0) {
+                    return "注册失败！";
+                } else {
+                    return "redirect:/selectAllAntiTest";
+                }
+            }
+        }
+    }*/
 }

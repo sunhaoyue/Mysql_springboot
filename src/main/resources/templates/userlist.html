@@ -1,0 +1,77 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>显示设备信息</title>
+</head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+<script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<body>
+<div>
+    <div class="container">
+        <form th:action="@{/show_shyuser}" th:method="post">
+            <h3>查询栏位</h3>
+            <a>编号:</a><input type="text" id="userId" name="userId" class="form-search" placeholder="请输入设备编号"/>
+            <a>设备名称:</a><input type="text" id="userLoginName" name="userLoginName" class="form-search" placeholder="请输入设备名称"/>
+            <a>设备创建时间:</a><input type="date" id="userCreateTime" name="userCreateTime" class="form-search"  placeholder="请输入设备创建时间"/>
+            <a>设备数量:</a><input type="text" id="userObject" name="userObject" class="form-search" placeholder="请输入设备数量"/>
+            <button type="submit" class="btn btn-success">查询</button>
+        </form>
+    </div>
+
+    <table border="1" width="1200" class="container">
+        <thead>
+        <tr>
+            <td>用户id</td>
+            <td>用户登录名</td>
+            <td>用户创建时间</td>
+            <td>用户手机号</td>
+            <td>用户角色</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr th:if="${user_lists} eq 0">
+            <td colspan="6">没有数据</td>
+        </tr>
+        <tr th:each="user : ${user_lists}">
+            <!--anti_test实体类的属性是private修饰，不可以直接调用 -->
+            <td th:text="${user.user_id}">1</td>
+            <td th:text="${user.user_login_name}">admin</td>
+            <td th:text="${#dates.format(user.user_create_time, 'yyyy年MM月dd日')}">2019-09-06</td>
+            <td th:text="${user.use_object}">18811014454</td>
+            <td>
+                <a  class="btn btn-primary btn-small">清除设备信息
+                </a>
+                <a  class="btn btn-secondary">修改
+                </a>
+                <a class="btn btn-danger btn-small" href="show_table.html">删除
+                </a>
+            </td>
+        </tr>
+        <td colspan="10" align="center"><a class="btn btn-primary" href="userlist.html">新增设备信息</a>
+        </td>
+        </tbody>
+    </table>
+    <div class="container">
+        <div class="modal-footer right">
+            <span class="header-panel">版权 © sunhaoyue@2019.6-2019.7</span>
+        </div>
+        <h2>bootstrap4按钮样式</h2>
+        <button type="button" class="btn">基本按钮</button>
+        <button type="button" class="btn btn-primary">主要按钮</button>
+        <button type="button" class="btn btn-secondary">次要按钮</button>
+        <button type="button" class="btn btn-success">成功</button>
+        <button type="button" class="btn btn-info">信息</button>
+        <button type="button" class="btn btn-warning">警告</button>
+        <button type="button" class="btn btn-danger">危险</button>
+        <button type="button" class="btn btn-dark">黑色</button>
+        <button type="button" class="btn btn-light">浅色</button>
+        <button type="button" class="btn btn-link">链接</button>
+    </div>
+
+</div>
+</body>
+</html>
