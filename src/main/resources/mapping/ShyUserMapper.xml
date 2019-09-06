@@ -35,9 +35,10 @@
     select 
     <include refid="Base_Column_List" />
     from shy_user
+    where 1=1
     <!--where user_id = #{userId,jdbcType=BIGINT} -->
     <if test="userId != null and userId !=''" >
-      user_id = #{userId,jdbcType=BIGINT}
+    and user_id = #{userId,jdbcType=BIGINT}
     </if>
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Long" >

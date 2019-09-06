@@ -14,5 +14,5 @@ import java.util.List;
 
 public interface ShyUserService {
     //根据 id 得到所有的user数据
-    List<ShyUser> selectByPrimaryKey(@Param("id") Long id);
+    List<ShyUser> selectByPrimaryKey(@Param("userId") Long id);
 }
