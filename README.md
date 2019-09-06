@@ -58,10 +58,11 @@
 二、资源加载视图图例  
 
 1、登录界面
-![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.05.png)
-
-2、注册视图效果
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png)
-
-3、错误显示页面
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png
+)
+2、get所有数据展示
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E6%89%80%E6%9C%89list.png)
+3、按照条件查询展示
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E6%9D%A1%E4%BB%B6list.png)
+4、错误显示页面
 ![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.17.png)
