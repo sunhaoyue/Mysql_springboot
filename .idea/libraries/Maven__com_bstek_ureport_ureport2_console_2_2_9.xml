@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: com.bstek.ureport:ureport2-console:2.2.9">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/bstek/ureport/ureport2-console/2.2.9/ureport2-console-2.2.9.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/bstek/ureport/ureport2-console/2.2.9/ureport2-console-2.2.9-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/../../../apache-maven-3.6.1/repository/com/bstek/ureport/ureport2-console/2.2.9/ureport2-console-2.2.9-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

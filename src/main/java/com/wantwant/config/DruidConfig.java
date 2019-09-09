@@ -46,4 +46,5 @@ public class DruidConfig {
         filterRegistrationBean.addInitParameter("exclusions","*.html,*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*");
         return filterRegistrationBean;
     }
+    //配置多数据源
 }
