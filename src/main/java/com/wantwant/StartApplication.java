@@ -19,5 +19,10 @@ public class StartApplication {
     public static void main(String[] args)  {
         SpringApplication.run(StartApplication.class, args);
     }
-
+    @Bean
+    public ServletRegistrationBean ureportServlet(){
+        ServletRegistrationBean bean=new ServletRegistrationBean(new UReportServlet());
+        bean.addUrlMappings("/ureport/*");
+        return bean;
+    }
 }

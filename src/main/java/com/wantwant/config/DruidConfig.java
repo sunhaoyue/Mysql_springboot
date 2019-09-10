@@ -1,12 +1,15 @@
 package com.wantwant.config;
 
+import com.alibaba.druid.pool.DruidDataSource;
 import com.alibaba.druid.support.http.StatViewServlet;
 import com.alibaba.druid.support.http.WebStatFilter;
+import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.boot.web.servlet.ServletRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
+import javax.sql.DataSource;
 
 
 /**
@@ -21,6 +24,12 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class DruidConfig {
+  /* @Bean("default")
+   @ConfigurationProperties(prefix = "spring.datasource.druid")
+   public DataSource createDefaultDataSource(){
+       return new DruidDataSource();
+   }*/
+
     //配置一个管理后台的Servlet,SpringBoot配置Servlet的方式如下
     @Bean
     public ServletRegistrationBean druidServlet(){
@@ -47,4 +56,5 @@ public class DruidConfig {
         return filterRegistrationBean;
     }
     //配置多数据源
+
 }

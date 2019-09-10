@@ -66,3 +66,6 @@
 ![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E6%9D%A1%E4%BB%B6list.png)
 4、错误显示页面
 ![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.17.png)
+5、Ureport报表
+http://localhost:8088/Mysql_springboot/ureport/designer
+![Image text]()
