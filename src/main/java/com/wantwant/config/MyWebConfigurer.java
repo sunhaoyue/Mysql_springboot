@@ -5,7 +5,7 @@ import org.springframework.web.servlet.config.annotation.ResourceHandlerRegistry
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
 /**
- * @program: Sqlserver_springboot
+ * @program: Mysql_springboot
  * @description: 自定义资源映射,配置视图加载资源路径
  * @author: Sunhaoyue
  * @create: 2019/07/02 13:48

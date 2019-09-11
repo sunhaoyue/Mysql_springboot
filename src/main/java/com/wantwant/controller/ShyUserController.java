@@ -37,8 +37,6 @@ public class ShyUserController {
         binder.registerCustomEditor(Date.class, new CustomDateEditor(dateFormat, true));
     }
 
-
-
     //显示所用用户
     @ResponseBody
     @RequestMapping("/show_shyuser")
@@ -49,4 +47,5 @@ public class ShyUserController {
         return new ModelAndView("userlist");
 
     }
+
 }

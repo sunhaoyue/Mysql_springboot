@@ -34,6 +34,12 @@
                 </exclusion>
             </exclusions>
         </dependency>
+        <!-- 引入AOP依赖包-->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
@@ -127,8 +133,6 @@
             <artifactId>ureport2-console</artifactId>
             <version>2.2.9</version>
         </dependency>
-    
-    
         <!-- JSON 前后端数据传输交互中,经常会遇到字符串(String)与json,XML等格式相互转换与解析
         https://mvnrepository.com/artifact/com.alibaba/fastjson -->
         <dependency>
