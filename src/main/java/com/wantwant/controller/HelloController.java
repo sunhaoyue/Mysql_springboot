@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * @program: Sqlserver_springboot
+ * @program: Mysql_springboot
  * @description: 测试springboot 视图配置
  * @author: Sunhaoyue
  * @create: 2019/06/18 11:26
