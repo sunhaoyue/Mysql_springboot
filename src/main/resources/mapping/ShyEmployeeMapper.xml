@@ -41,7 +41,11 @@
     select 
     <include refid="Base_Column_List" />
     from shy_employee
-    where id = #{id,jdbcType=INTEGER}
+    where 1=1
+    <!--where user_id = #{userId,jdbcType=BIGINT} -->
+    <if test="id != null and id !=''" >
+    and id = #{id,jdbcType=INTEGER}
+    </if>
   </select>
   <delete id="deleteByPrimaryKey" parameterType="java.lang.Integer" >
     delete from shy_employee

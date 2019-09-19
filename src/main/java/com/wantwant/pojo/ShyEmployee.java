@@ -1,14 +1,21 @@
 package com.wantwant.pojo;
 
+import com.alibaba.fastjson.annotation.JSONField;
+
+import java.io.Serializable;
 import java.util.Date;
 
-public class ShyEmployee {
+public class ShyEmployee  {
+
     private Integer id;
 
     private String name;
 
     private String gender;
-
+    /**
+     * fastJson特性：格式化
+     */
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date birthday;
 
     private String idcard;
@@ -40,7 +47,10 @@ public class ShyEmployee {
     private String specialty;
 
     private String school;
-
+    /**
+     * fastJson特性：格式化
+     */
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date begindate;
 
     private String workstate;
@@ -48,13 +58,19 @@ public class ShyEmployee {
     private String workid;
 
     private Double contractterm;
-
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date conversiontime;
-
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date notworkdate;
-
+    /**
+     * fastJson特性：格式化
+     */
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date begincontract;
-
+    /**
+     * fastJson特性：格式化
+     */
+    @JSONField(format = "yyyy-MM-dd HH:mm")
     private Date endcontract;
 
     private Integer workage;

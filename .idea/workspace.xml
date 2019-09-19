@@ -2,7 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fa9566-4508-4569-bb65-a31c28172266" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/YPHR_HQTR.sql" beforeDir="false" afterPath="$PROJECT_DIR$/YPHR_HQTR.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyemployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyemployeeserviceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/table.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyEmployeeMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyEmployee.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ShyEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShyEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/StartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/StartApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/static/images/images_login/refresh_5b751b2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/images_login/refresh_5b751b2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userlist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,9 +47,11 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Interface" />
-        <option value="Class" />
         <option value="Kotlin File" />
+        <option value="Interface" />
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -53,9 +77,12 @@
     </option>
   </component>
   <component name="ProjectId" id="1Qau0vcKwtQIescTxLOuSEDsIFN" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -64,6 +91,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Artifacts" />
@@ -88,7 +116,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in Mysql_Springboot">
+  <component name="RunManager" selected="Spring Boot.mysql_springboot">
     <configuration name="All in Mysql_Springboot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mysql_Springboot" />
       <option name="PACKAGE_NAME" value="" />
@@ -133,7 +161,7 @@
       <workItem from="1568185169396" duration="2469000" />
       <workItem from="1568250804384" duration="1000000" />
       <workItem from="1568591151185" duration="3157000" />
-      <workItem from="1568678555381" duration="3971000" />
+      <workItem from="1568678555381" duration="33577000" />
     </task>
     <task id="LOCAL-00001" summary="UReport展示与操作手册！">
       <created>1568086401068</created>
@@ -163,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568687711458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="mysql">
+      <created>1568688684370</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568688684370</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -210,6 +245,7 @@
     <MESSAGE value="UReport展示与操作手册！" />
     <MESSAGE value="失败的durid数据源连接，切面编程没有实现。考虑复杂性与系统使用多数据源新能没有明显提升的问题的，我将暂时搁置" />
     <MESSAGE value="generator逆向工程生成dao、mapper、sql。覆盖式生成。（git更新全局——不好）" />
-    <option name="LAST_COMMIT_MESSAGE" value="generator逆向工程生成dao、mapper、sql。覆盖式生成。（git更新全局——不好）" />
+    <MESSAGE value="mysql" />
+    <option name="LAST_COMMIT_MESSAGE" value="mysql" />
   </component>
 </project>

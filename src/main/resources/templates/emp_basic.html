@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>员工基本资料</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap-table.min.css">
+    <script src="https://cdn.staticfile.org/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdn.staticfile.org/popper.js/1.12.5/umd/popper.min.js"></script>
+    <script src="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div>
+    <div class="container">
+        <form th:action="@{/emp/basic}" th:method="post">
+            <h3>搜索栏位</h3>
+            <input type="text" id="name_cod" name="name_cod"  placeholder="通过员工姓名或工号搜索(目前只支持通过ID查询)"/><br>
+            <a>地区:</a><input type="text" id="id" name="id" class="form-search" placeholder="请输入用户编号"/>
+            <a>名族:</a><input type="text" id="userLoginName" name="userLoginName" class="form-search" placeholder="请输入用户名称"/>
+            <a>籍贯:</a><input type="date" id="userCreateTime" name="userCreateTime" class="form-search"  placeholder="请输入用户创建时间"/>
+            <a>政治面貌:</a><input type="text" id="userObject" name="userObject" class="form-search" placeholder="请输入用户数量"/>
+            <button type="submit" class="btn btn-primary">搜索</button>
+        </form>
+        <button type="submit" class="btn btn-success">导入数据</button>
+        <button type="submit" class="btn btn-success">导出数据</button>
+
+    </div>
+<div class="table_box_big">
+    <div class="table_box">
+    <table border="1" role="application">
+        <thead>
+        <tr>
+            <td>状态</td>
+            <td>姓名</td>
+            <td>工号</td>
+            <td>性别</td>
+            <td>身份证号码</td>
+            <td>婚姻状态</td>
+            <td>籍贯</td>
+            <td>政治面貌</td>
+            <td>电子邮件</td>
+            <td>手机号</td>
+            <td>联系地址</td>
+            <td>所属部门</td>
+            <td>职位</td>
+            <td>职称</td>
+            <td>入职日期</td>
+            <td>聘用形式</td>
+            <td>合同起始日期</td>
+            <td>合同截止日期</td>
+            <td>合同期限</td>
+            <td>最高学历</td>
+            <td>操作</td>
+        </tr>
+        </thead>
+        <tbody class="table_tbody_box">
+        <tr th:if="${pageInfo.getList()} eq 0">
+            <td colspan="6">没有数据</td>
+        </tr>
+        <tr th:each="emp : ${pageInfo.getList()}">
+            <td> <checkbox></checkbox></td>
+            <!--anti_test实体类的属性是private修饰，不可以直接调用 -->
+            <td th:text="${emp.name}">孙浩月大王默认</td>
+            <td th:text="${emp.gender}">admin</td>
+            <td th:text="${#dates.format(emp.birthday, 'yyyy年MM月dd日')}">2019-09-06</td>
+            <td th:text="${emp.idcard}">身份证号码</td>
+            <td th:text="${emp.wedlock}">婚姻状态</td>
+            <td th:text="${emp.nativeplace}">籍贯</td>
+            <td th:text="${emp.politicid}">政治面貌</td>
+            <td th:text="${emp.email}">电子邮件</td>
+            <td th:text="${emp.phone}">admin</td>
+            <td th:text="${emp.departmentid}">联系地址</td>
+            <td th:text="${emp.joblevelid}">所属部门</td>
+            <td th:text="${emp.posid}">职位</td>
+            <td th:text="${emp.engageform}">职称</td>
+            <td th:text="${#dates.format(emp.begindate, 'yyyy年MM月dd日')}">入职日期-09-06</td>
+            <td th:text="${emp.specialty}">聘用形式</td>
+            <td th:text="${#dates.format(emp.begincontract, 'yyyy年MM月dd日')}">合同起始日期-09-06</td>
+            <td th:text="${#dates.format(emp.endcontract, 'yyyy年MM月dd日')}">2019-合同截止日期-06</td>
+            <td th:text="${emp.workage}">7<a>年</a> 合同期限</td>
+            <td th:text="${emp.tiptopdegree}">硕士</td>
+            <td>
+                <a  class="btn btn-primary btn-small">高级查询资料
+                </a>
+                <a  class="btn btn-secondary">编辑
+                </a>
+                <a class="btn btn-danger btn-small">删除
+                </a>
+            </td>
+        </tr>
+        <td colspan="10" align="center"><a class="btn btn-primary" href="userlist.html">新增用户信息</a>
+        </td>
+        </tbody>
+    </table>
+    </div>
+</div>
+    <a class="btn btn-danger btn-small">批量删除
+</a>
+    <!--显示分页信息-->
+    <div class="modal-footer no-margin-top">
+        <div class="col-md-6">
+            当前第 [[${pageInfo.pageNum}]]页,共 [[${pageInfo.pages}]] 页.一共 [[${pageInfo.total}]] 条记录
+        </div>
+
+        <ul class="pagination pull-right no-margin">
+            <li th:if="${pageInfo.hasPreviousPage}">
+                <a th:href="'/Mysql_springboot/emp/basic?pageNum=1'">首页</a>
+            </li>
+
+            <li class="prev" th:if="${pageInfo.hasPreviousPage}">
+                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.prePage}">
+                    <i class="ace-icon fa fa-angle-double-left"></i>
+                </a>
+            </li>
+            <!--遍历条数-->
+            <li th:each="nav:${pageInfo.navigatepageNums}">
+                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${nav}" th:text="${nav}" th:if="${nav != pageInfo.pageNum}"></a>
+                <span style="font-weight: bold;background: #6faed9;" th:if="${nav == pageInfo.pageNum}" th:text="${nav}" ></span>
+            </li>
+
+            <li class="next" th:if="${pageInfo.hasNextPage}">
+                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.nextPage}">
+                    <i class="ace-icon fa fa-angle-double-right"></i>
+                </a>
+            </li>
+
+            <li>
+                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.pages}">尾页</a>
+            </li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

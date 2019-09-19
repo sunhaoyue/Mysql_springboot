@@ -2,7 +2,7 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>显示设备信息</title>
+    <title>显示登录用户信息</title>
 </head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
@@ -14,10 +14,10 @@
     <div class="container">
         <form th:action="@{/show_shyuser}" th:method="post">
             <h3>查询栏位</h3>
-            <a>编号:</a><input type="text" id="id" name="id" class="form-search" placeholder="请输入设备编号"/>
-            <a>设备名称:</a><input type="text" id="userLoginName" name="userLoginName" class="form-search" placeholder="请输入设备名称"/>
-            <a>设备创建时间:</a><input type="date" id="userCreateTime" name="userCreateTime" class="form-search"  placeholder="请输入设备创建时间"/>
-            <a>设备数量:</a><input type="text" id="userObject" name="userObject" class="form-search" placeholder="请输入设备数量"/>
+            <a>用户ID:</a><input type="text" id="id" name="id" class="form-search" placeholder="请输入用户编号"/>
+            <a>设备名称:</a><input type="text" id="userLoginName" name="userLoginName" class="form-search" placeholder="请输入用户名称"/>
+            <a>设备创建时间:</a><input type="date" id="userCreateTime" name="userCreateTime" class="form-search"  placeholder="请输入用户创建时间"/>
+            <a>设备数量:</a><input type="text" id="userObject" name="userObject" class="form-search" placeholder="请输入用户数量"/>
             <button type="submit" class="btn btn-success">查询</button>
         </form>
     </div>
@@ -43,7 +43,7 @@
             <td th:text="${#dates.format(user.userCreateTime, 'yyyy年MM月dd日')}">2019-09-06</td>
             <td th:text="${user.userMobile}">18811014454</td>
             <td>
-                <a  class="btn btn-primary btn-small">清除设备信息
+                <a  class="btn btn-primary btn-small">清除用户信息
                 </a>
                 <a  class="btn btn-secondary">修改
                 </a>
@@ -51,7 +51,7 @@
                 </a>
             </td>
         </tr>
-        <td colspan="10" align="center"><a class="btn btn-primary" href="userlist.html">新增设备信息</a>
+        <td colspan="10" align="center"><a class="btn btn-primary" href="userlist.html">新增用户信息</a>
         </td>
 
         </tbody>
