@@ -2,28 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fa9566-4508-4569-bb65-a31c28172266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyemployeeService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/ShyemployeeserviceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/css/table.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/ad13d9c519554e7d72b845fe1a884cdd.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/b68e89335cd48ceff3cdaff0a799fee6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/index.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/mmexport1537613047059.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/谢尔顿.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/StartApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyEmployeeMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/mapper/ShyEmployeeMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyEmployee.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/pojo/ShyEmployee.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/ShyUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/ShyEmployeeMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/ShyEmployeeMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/details_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/details_table.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/StartApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/StartApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/generator/generatorConfig.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/static/images/images_login/refresh_5b751b2.svg" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/static/images/images_login/refresh_5b751b2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/details_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/details_table.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userlist.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -90,7 +85,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/static/images/title" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -100,6 +95,9 @@
     <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/static/images/title" />
+    </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.wantwant.config" />
     </key>
@@ -161,7 +159,8 @@
       <workItem from="1568185169396" duration="2469000" />
       <workItem from="1568250804384" duration="1000000" />
       <workItem from="1568591151185" duration="3157000" />
-      <workItem from="1568678555381" duration="33577000" />
+      <workItem from="1568678555381" duration="33758000" />
+      <workItem from="1568937509647" duration="7068000" />
     </task>
     <task id="LOCAL-00001" summary="UReport展示与操作手册！">
       <created>1568086401068</created>
@@ -198,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568688684370</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="实现pageHelper的分页，url有点问题，待处理">
+      <created>1568876176330</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568876176330</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,6 +252,7 @@
     <MESSAGE value="失败的durid数据源连接，切面编程没有实现。考虑复杂性与系统使用多数据源新能没有明显提升的问题的，我将暂时搁置" />
     <MESSAGE value="generator逆向工程生成dao、mapper、sql。覆盖式生成。（git更新全局——不好）" />
     <MESSAGE value="mysql" />
-    <option name="LAST_COMMIT_MESSAGE" value="mysql" />
+    <MESSAGE value="实现pageHelper的分页，url有点问题，待处理" />
+    <option name="LAST_COMMIT_MESSAGE" value="实现pageHelper的分页，url有点问题，待处理" />
   </component>
 </project>

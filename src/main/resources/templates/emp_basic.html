@@ -1,9 +1,10 @@
-<!DOCTYPE html>
 <!DOCTYPE HTML>
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>员工基本资料</title>
+    <link th:href="@{/images/title/index.jpeg}" href="../static/images/title/index.jpeg" rel="icon" type="image/x-ico">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdn.staticfile.org/twitter-bootstrap/4.1.0/css/bootstrap-theme.min.css">
@@ -107,28 +108,28 @@
 
         <ul class="pagination pull-right no-margin">
             <li th:if="${pageInfo.hasPreviousPage}">
-                <a th:href="'/Mysql_springboot/emp/basic?pageNum=1'">首页</a>
+                <a th:href="'/Mysql_springboot/emp/basic?id=&pageNum=1'">首页</a>
             </li>
 
             <li class="prev" th:if="${pageInfo.hasPreviousPage}">
-                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.prePage}">
+                <a th:href="'/Mysql_springboot/emp/basic?id=&pageNum='+${pageInfo.prePage}">
                     <i class="ace-icon fa fa-angle-double-left"></i>
                 </a>
             </li>
             <!--遍历条数-->
             <li th:each="nav:${pageInfo.navigatepageNums}">
-                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${nav}" th:text="${nav}" th:if="${nav != pageInfo.pageNum}"></a>
+                <a th:href="'/Mysql_springboot/emp/basic?id=&pageNum='+${nav}" th:text="${nav}" th:if="${nav != pageInfo.pageNum}"></a>
                 <span style="font-weight: bold;background: #6faed9;" th:if="${nav == pageInfo.pageNum}" th:text="${nav}" ></span>
             </li>
 
             <li class="next" th:if="${pageInfo.hasNextPage}">
-                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.nextPage}">
+                <a th:href="'/Mysql_springboot/emp/basic?id=&pageNum='+${pageInfo.nextPage}">
                     <i class="ace-icon fa fa-angle-double-right"></i>
                 </a>
             </li>
 
             <li>
-                <a th:href="'/Mysql_springboot/emp/basic?pageNum='+${pageInfo.pages}">尾页</a>
+                <a th:href="'/Mysql_springboot/emp/basic?id=&pageNum='+${pageInfo.pages}">尾页</a>
             </li>
         </ul>
     </div>
