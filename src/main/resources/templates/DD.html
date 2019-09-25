@@ -1,0 +1,24 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>钉钉数据测试</title>
+</head>
+<body>
+<tbody>
+<tr th:if="${params} eq 0">
+    <td colspan="6">没有数据</td>
+</tr>
+<tr th:each="param1 : ${params}">
+    <td th:text="${param1.errcode}">1</td>
+    <td th:text="${param1.access_token}">1</td>
+    <td th:text="${param1.errmsg}">1</td>
+    <td th:text="${param1.expires_in}">1</td>
+</tr>
+<td colspan="10" align="center"><a class="btn btn-dark" href="userlist.html"  th:href="@{/show_shyuser(id=null)}">显示所有用户</a>
+</td>
+<td colspan="10" align="center"><a class="btn btn-dark" href="userlist.html"  th:href="@{/emp/basic(id=null)}">显示员工基本信息</a>
+</td>
+</tbody>
+</body>
+</html>

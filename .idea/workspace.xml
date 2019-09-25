@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fa9566-4508-4569-bb65-a31c28172266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/ad13d9c519554e7d72b845fe1a884cdd.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/b68e89335cd48ceff3cdaff0a799fee6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/index.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/mmexport1537613047059.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/images/title/谢尔顿.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/div错误.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginDDController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/DingTalkClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/DD.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/title小图标浏览器.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/解决分页问题.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Mysql_Springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mysql_Springboot.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mysql_Springboot_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mysql_Springboot_Web_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/ShyEmployeeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/details_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/details_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/emp_basic.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/userlist.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/details_table.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/details_table.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/error.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/error.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/userlist.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/userlist.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/config/MyWebConfigurer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/config/MyWebConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/config/MyWebConfigurer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/controller/HelloController.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +49,9 @@
         <option value="Enum" />
         <option value="Kotlin File" />
         <option value="Interface" />
-        <option value="HTML File" />
         <option value="CSS File" />
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,21 +60,31 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="WARN_ABOUT_DETACHED_HEAD" value="false" />
   </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$PROJECT_DIR$/../../../apache-maven-3.6.1/repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.6.1" />
+        <option name="pluginUpdatePolicy" value="DO_NOT_UPDATE" />
         <option name="userSettingsFile" value="$PROJECT_DIR$/../../../apache-maven-3.6.1/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
+        <option name="jdkForImporter" value="1.8" />
         <option name="useMavenOutput" value="false" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
   </component>
   <component name="ProjectId" id="1Qau0vcKwtQIescTxLOuSEDsIFN" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -78,6 +93,11 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="Downloaded.Files.Path" value="$PROJECT_DIR$/../../../apache-maven-3.6.1/repository" />
+    <property name="Downloaded.Files.Path.Enabled" value="true" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -89,17 +109,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.last.edited" value="Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.wantwant.service.impl" />
+      <recent name="com.wantwant.config" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/static/images/title" />
-    </key>
-    <key name="CreateClassDialog.RecentsKey">
-      <recent name="com.wantwant.config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -137,6 +158,9 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",VISIBILITY_SORTER" />
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -160,7 +184,12 @@
       <workItem from="1568250804384" duration="1000000" />
       <workItem from="1568591151185" duration="3157000" />
       <workItem from="1568678555381" duration="33758000" />
-      <workItem from="1568937509647" duration="7068000" />
+      <workItem from="1568937509647" duration="10133000" />
+      <workItem from="1569199518001" duration="1939000" />
+      <workItem from="1569206071195" duration="9678000" />
+      <workItem from="1569313420508" duration="419000" />
+      <workItem from="1569313849266" duration="3626000" />
+      <workItem from="1569369471877" duration="10523000" />
     </task>
     <task id="LOCAL-00001" summary="UReport展示与操作手册！">
       <created>1568086401068</created>
@@ -204,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568876176330</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="url解决&amp;thymeleaf模板引擎的title的小图标添加">
+      <created>1568960023705</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1568960023705</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +289,7 @@
     <MESSAGE value="generator逆向工程生成dao、mapper、sql。覆盖式生成。（git更新全局——不好）" />
     <MESSAGE value="mysql" />
     <MESSAGE value="实现pageHelper的分页，url有点问题，待处理" />
-    <option name="LAST_COMMIT_MESSAGE" value="实现pageHelper的分页，url有点问题，待处理" />
+    <MESSAGE value="url解决&amp;thymeleaf模板引擎的title的小图标添加" />
+    <option name="LAST_COMMIT_MESSAGE" value="url解决&amp;thymeleaf模板引擎的title的小图标添加" />
   </component>
 </project>

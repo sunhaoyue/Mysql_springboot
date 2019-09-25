@@ -14,6 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class HelloController {
     @RequestMapping(value ="/")
     public String home(){
+
         System.out.println("springboot启动文本视图显示");
         return "欢迎来到王者荣耀 ，测试springboot实现文本输出!";
     }
