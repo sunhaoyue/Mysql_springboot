@@ -69,3 +69,7 @@
 5、Ureport报表
 http://localhost:8088/Mysql_springboot/ureport/designer
 ![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/ureport%E6%8A%A5%E8%A1%A8%E5%BC%95%E6%93%8E.png)
+6、title小图标浏览器
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/title%E5%B0%8F%E5%9B%BE%E6%A0%87%E6%B5%8F%E8%A7%88%E5%99%A8.png)
+7、解决分页问题
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E8%A7%A3%E5%86%B3%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98.png)
