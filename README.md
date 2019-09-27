@@ -58,18 +58,20 @@
 二、资源加载视图图例  
 
 1、登录界面
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/%E7%99%BB%E5%BD%95%E9%A1%B5%E9%9D%A2.png
 )
 2、get所有数据展示
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E6%89%80%E6%9C%89list.png)
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/%E6%89%80%E6%9C%89list.png)
 3、按照条件查询展示
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E6%9D%A1%E4%BB%B6list.png)
-4、错误显示页面
-![Image text](https://github.com/sunhaoyue/sqlserver_springboot/blob/master/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202019-07-04%20%E4%B8%8B%E5%8D%882.08.17.png)
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/%E6%9D%A1%E4%BB%B6list.png)
+4、div错误显示页面
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/div%E9%94%99%E8%AF%AF.png)
 5、Ureport报表
 http://localhost:8088/Mysql_springboot/ureport/designer
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/ureport%E6%8A%A5%E8%A1%A8%E5%BC%95%E6%93%8E.png)
-6、title小图标浏览器
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/title%E5%B0%8F%E5%9B%BE%E6%A0%87%E6%B5%8F%E8%A7%88%E5%99%A8.png)
-7、解决分页问题
-![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/%E8%A7%A3%E5%86%B3%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98.png)
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/ureport%E6%8A%A5%E8%A1%A8%E5%BC%95%E6%93%8E.png)
+6、title小标题浏览器
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/title%E5%B0%8F%E5%9B%BE%E6%A0%87%E6%B5%8F%E8%A7%88%E5%99%A8.png)
+7、PageHelper+mybaits分页查询
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/%E8%A7%A3%E5%86%B3%E5%88%86%E9%A1%B5%E9%97%AE%E9%A2%98.png)
+8、钉钉免登录
+![Image text](https://github.com/sunhaoyue/Mysql_springboot/blob/master/document/%E9%92%89%E9%92%89%E7%99%BB%E5%BD%95%E6%95%B0%E6%8D%AE%E6%8E%A5%E6%94%B6.png)
