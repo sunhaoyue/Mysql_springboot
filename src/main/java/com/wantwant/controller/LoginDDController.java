@@ -5,11 +5,11 @@ import com.wantwant.service.impl.DingTalkClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpMethod;
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.util.LinkedMultiValueMap;
 import org.springframework.util.MultiValueMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.servlet.ModelAndView;
 
 /**
  * @program: Mysql_springboot
@@ -25,12 +25,13 @@ public class LoginDDController {
     DingTalkClient dingTalkClient;
 
     @RequestMapping(value = {"/loginDD"})
-    public String getUserInfo(ModelAndView model, @RequestParam("code") String code){
+    public String getUserInfo(Model model, @RequestParam("code") String code){
         // 免登陆授权码
         System.out.println("免登陆授权码:"+code);
         String url="https://oapi.dingtalk.com/sso/getuserinfo?access_token="+this.getAccess_token()+"&code="+code;
         System.out.println(url);
         HttpMethod method=HttpMethod.GET;
+        //???
         MultiValueMap<String,String> params=new LinkedMultiValueMap();
         String UserInfo=dingTalkClient.client(url,method,params);
         System.out.println("gituser"+UserInfo);
@@ -39,8 +40,16 @@ public class LoginDDController {
         if (jsonObject.get("errmsg")!= "无效的ssocode") {
 
             String corp_info= String.valueOf(jsonObject.get("corp_info"));
-            System.out.println(corp_info);
-            model.addObject("people_name", corp_info);
+            String user_info= String.valueOf(jsonObject.get("user_info"));
+            JSONObject corp_info_list=JSONObject.parseObject(corp_info);
+            JSONObject user_info_list=JSONObject.parseObject(user_info);
+            System.out.println(corp_info_list);
+            System.out.println(user_info_list);
+
+            //String corp_name = String.valueOf(corp_info_list.get("corp_name"));
+            model.addAttribute("name", corp_info_list.get("corp_name"));
+            System.out.println(corp_info_list.get("corp_name"));
+
             System.out.println(corp_info+"登录过中。。。!");
             return "index";
         }else{

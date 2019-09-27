@@ -2,29 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="66fa9566-4508-4569-bb65-a31c28172266" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_7.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_11.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/div错误.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginDDController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/DingTalkClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/DD.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/title小图标浏览器.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/解决分页问题.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Mysql_Springboot.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Mysql_Springboot.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/Mysql_Springboot_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/Mysql_Springboot_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_javax_activation_api_1_2_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_1.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/test/OrderCodeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/test/OrderCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/test/OrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/test/OrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/test/OrderServiceImplWithLock.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/config/MyWebConfigurer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/config/MyWebConfigurer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/HelloController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/config/MyWebConfigurer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/config/MyWebConfigurer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/controller/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/controller/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginDDController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/controller/LoginDDController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/DingTalkClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wantwant/service/impl/DingTalkClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/wantwant/controller/LoginController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/wantwant/controller/LoginController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,8 +39,8 @@
         <option value="Kotlin File" />
         <option value="Interface" />
         <option value="CSS File" />
-        <option value="Class" />
         <option value="HTML File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -135,7 +124,33 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.mysql_springboot">
+  <component name="RunManager" selected="Application.OrderCodeController">
+    <configuration name="OrderCodeController" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wantwant.test.OrderCodeController" />
+      <module name="Mysql_Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wantwant.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderCodeGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.wantwant.test.OrderCodeGenerator" />
+      <module name="Mysql_Springboot" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wantwant.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="All in Mysql_Springboot" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Mysql_Springboot" />
       <option name="PACKAGE_NAME" value="" />
@@ -154,6 +169,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.OrderCodeController" />
+        <item itemvalue="Application.OrderCodeGenerator" />
         <item itemvalue="JUnit.All in Mysql_Springboot" />
       </list>
     </recent_temporary>
@@ -189,7 +206,9 @@
       <workItem from="1569206071195" duration="9678000" />
       <workItem from="1569313420508" duration="419000" />
       <workItem from="1569313849266" duration="3626000" />
-      <workItem from="1569369471877" duration="10523000" />
+      <workItem from="1569369471877" duration="17298000" />
+      <workItem from="1569490342244" duration="3000" />
+      <workItem from="1569546088094" duration="7059000" />
     </task>
     <task id="LOCAL-00001" summary="UReport展示与操作手册！">
       <created>1568086401068</created>
@@ -240,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568960023705</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="钉钉与项目一键登录，（核心就是将钉钉的数据获取到程序以供使用）。&#10;json与string之间的转换，实现数据json接受！">
+      <created>1569382902395</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1569382902395</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,6 +316,7 @@
     <MESSAGE value="mysql" />
     <MESSAGE value="实现pageHelper的分页，url有点问题，待处理" />
     <MESSAGE value="url解决&amp;thymeleaf模板引擎的title的小图标添加" />
-    <option name="LAST_COMMIT_MESSAGE" value="url解决&amp;thymeleaf模板引擎的title的小图标添加" />
+    <MESSAGE value="钉钉与项目一键登录，（核心就是将钉钉的数据获取到程序以供使用）。&#10;json与string之间的转换，实现数据json接受！" />
+    <option name="LAST_COMMIT_MESSAGE" value="钉钉与项目一键登录，（核心就是将钉钉的数据获取到程序以供使用）。&#10;json与string之间的转换，实现数据json接受！" />
   </component>
 </project>

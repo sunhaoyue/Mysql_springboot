@@ -14,7 +14,6 @@
 <h2>世界很大，有你发现！</h2>
 <th:block></th:block>
 
-
 <table border="1" width="1200" class="container">
     <thead align="center" class="header">
     <tr align="center">
@@ -22,10 +21,10 @@
     </tr>
     </thead>
     <tbody>
-    <tr th:if="${people_name} eq 0">
+    <tr th:if="${name} eq 0">
         <td colspan="6">没有数据</td>
     </tr>
-    <tr th:each="peoplename : ${people_name}">
+    <tr th:each="peoplename : ${name}">
         <td th:text="${peoplename}">1</td>
     </tr>
     <td colspan="10" align="center"><a class="btn btn-dark" href="userlist.html"  th:href="@{/show_shyuser(id=null)}">显示所有用户</a>

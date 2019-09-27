@@ -50,7 +50,7 @@ public class LoginController {
         ShyUser people = loginService.userlogin(username, password);
         if (people != null) {
             String peoplename = people.getUserLoginName();
-            mv.addObject("people_name", peoplename);
+            mv.addObject("name", peoplename);
             System.out.println(peoplename+"登录过中。。。!");
             return mv;
         }else{
